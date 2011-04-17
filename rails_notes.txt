@@ -1,6 +1,21 @@
+bundle install
+
 rails server
-rails console - rails c
+rails server --environment production
+
+rails console
+rails console --sandbox
+rails console test
+
 rails generate controller Users new
+rails generate model User name:string email:string
+
+rspec spec/
+
+rake db:migrate
+rake db:migrate RAILS_ENV=production
+rake db:rollback
+rake db:test:prepare
 
 
 git add .
@@ -10,5 +25,7 @@ git checkout master
 git merge static-pages
 git push
 
-rspec spec/
+
+heroku console
+Rails.env
 
