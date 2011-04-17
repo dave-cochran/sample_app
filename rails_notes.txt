@@ -1,0 +1,14 @@
+rails server
+rails console - rails c
+rails generate controller Users new
+
+
+git add .
+git commit -am "Done with static pages"
+
+git checkout master
+git merge static-pages
+git push
+
+rspec spec/
+
