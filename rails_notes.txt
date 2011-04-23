@@ -21,6 +21,7 @@ rake db:migrate RAILS_ENV=production
 rake db:rollback
 rake db:test:prepare
 rake db:reset
+rake db:populate
 
 
 git add .
